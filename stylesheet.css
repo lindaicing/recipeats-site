@@ -2,7 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   background-image: url("pattern.png");
   background-repeat: repeat-xy;
-  width: 1080px;
 }
 
 header{
@@ -22,13 +21,22 @@ div{
   height: 800px;
 }
 
-
 nav{
   background:#bcd6ab;
-overflow: hidden;
-position: fixed;
-bottom: 0;
-width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  text-align: center;
+  flex: 1;
 }
 
 nav a{
