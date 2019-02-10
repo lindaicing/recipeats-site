@@ -1,3 +1,31 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-image: url("pattern.png");
+  background-repeat: repeat-y;
+  width: 1080px;
 }
+
+header{
+  background: #bcd6ab;
+  height: 120px;
+}
+
+header h1 img{
+  width: 200px;
+}
+
+
+nav{
+  background:#bcd6ab;
+}
+
+nav a{
+  position: relative;
+  text-decoration: none;
+  color:#ffffff;
+}
+
+nav a:hover {
+  color:#34427c;
+}
+
