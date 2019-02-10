@@ -50,15 +50,33 @@ nav a:hover {
 }
 
 .polaroid{
+  position: fixed;
   margin: 120px 0px 120px 0px;
   width:60%;
   padding-left: 20%;
+}
+
+#cameraclick{
+  width:100px;
+  height: 100px;
+}
+
+#profile{
+  margin: 130px 0px 130px 0px;
+  width:58%;
+  padding-left: 21%;
 }
 
 @media (min-width:540px) {
   .polaroid{
     margin: 120px 0px 120px 0px;
     width:300px;
+    padding-left: 30%;
+  }
+
+  #profile{
+    margin: 130px 0px 130px 0px;
+    width:280px;
     padding-left: 30%;
   }
 }
